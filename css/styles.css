@@ -388,6 +388,7 @@ ul {
   margin-right: 30px;
   fill: var(--clients-border);
   cursor: pointer;
+  padding: 16px 32px;
 }
 
 .clients-logo:hover,
@@ -574,7 +575,6 @@ ul {
 /* Social Footer */
 
 .social-title {
-  display: flex;
   font-family: roboto;
   font-weight: 700;
   font-size: 14px;
@@ -611,6 +611,15 @@ ul {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent);
+}
+
+.join-social {
+  width: 206px;
+  height: 80px;
+}
+.footer-left {
+  display: flex;
+  align-items: baseline;
 }
 
 /* Social Staff */
