@@ -51,6 +51,7 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
+  list-style: none;
 }
 /* Utils */
 .container {
@@ -511,6 +512,7 @@ ul {
 /* Footer */
 
 .footer.main {
+  display: flex;
   background-color: var(--footer-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -563,21 +565,76 @@ ul {
   margin-top: 20px;
 }
 
-/* Social Footer */
-
-.container.social {
-  display: flex;
-  flex-wrap: wrap;
-  width: 206px;
-  height: 80px;
-  margin-left: 80px;
+.address-block {
+  width: 231px;
+  height: 81px;
+  margin-right: 70px;
 }
 
-.container .title {
+/* Social Footer */
+
+.social-title {
+  display: flex;
   font-family: roboto;
   font-weight: 700;
   font-size: 14px;
+  line-height: 1.14;
   font-style: normal;
   text-transform: uppercase;
   color: var(--social-footer-color);
+  margin-bottom: 20px;
+  padding-top: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-menu {
+  display: flex;
+  justify-content: center;
+}
+.social-link {
+  display: flex;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.social-logo {
+  fill: var(--primary-background-color);
+  margin: 12px 12px 12px 12px;
+  justify-content: center;
+}
+
+.social-link:hover {
+  background-color: var(--accent);
+}
+
+/* Social Staff */
+
+.link-staff {
+  display: flex;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.link-staff:hover {
+  background-color: var(--accent);
+  border-radius: 50%;
+}
+
+.social-staff {
+  fill: var(--clients-border);
+  margin: 12px 12px 12px 12px;
+  justify-content: center;
+}
+
+.social-staff:hover {
+  fill: var(--primary-background-color);
 }
