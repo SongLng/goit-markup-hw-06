@@ -624,9 +624,16 @@ ul {
   border-radius: 50%;
 }
 
-.link-staff:hover {
+.link-staff:hover,
+.link-staf:focus {
   background-color: var(--accent);
   border-radius: 50%;
+}
+
+.link-staff:hover .social-staff,
+.link-staf:focus .social-staff {
+  background-color: var(--accent);
+  fill: white;
 }
 
 .social-staff {
