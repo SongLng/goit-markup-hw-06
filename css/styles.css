@@ -361,6 +361,7 @@ ul {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 0px;
+  background-color: var(--primary-background-color);
 }
 
 .section.team {
@@ -406,10 +407,6 @@ ul {
 .company-logo .item:nth-child(6) {
   margin-right: 0px;
 }
-
-/* .clients-logo:nth-last-child(6) {
-  margin-right: 0px;
-} */
 
 /* Portfolio */
 
@@ -583,6 +580,7 @@ ul {
   text-transform: uppercase;
   color: var(--social-footer-color);
   margin-bottom: 20px;
+
   padding-top: 0px;
   justify-content: center;
   align-items: center;
@@ -600,12 +598,12 @@ ul {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   margin-right: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-logo {
   fill: var(--primary-background-color);
-  margin: 12px 12px 12px 12px;
-  justify-content: center;
 }
 
 .social-link:hover,
@@ -613,11 +611,7 @@ ul {
   background-color: var(--accent);
 }
 
-.join-social {
-  width: 206px;
-  height: 80px;
-}
-.footer-left {
+.container.footer {
   display: flex;
   align-items: baseline;
 }
@@ -625,33 +619,30 @@ ul {
 /* Social Staff */
 
 .link-staff {
-  display: flex;
   padding: 0;
   width: 44px;
   height: 44px;
   margin-right: 10px;
   margin-top: 10px;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .link-staff:hover,
-.link-staf:focus {
+.link-staff:focus {
   background-color: var(--accent);
   border-radius: 50%;
+  fill: white;
 }
 
 .link-staff:hover .social-staff,
-.link-staf:focus .social-staff {
+.link-staff:focus .social-staff {
   background-color: var(--accent);
   fill: white;
 }
 
 .social-staff {
   fill: var(--clients-border);
-  margin: 12px 12px 12px 12px;
-  justify-content: center;
-}
-
-.social-staff:hover {
-  fill: var(--primary-background-color);
 }
