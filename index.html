@@ -60,16 +60,27 @@
     </header>
 
     <main>
+
       <!-- Герой -->
+
       <div>
         <section class="hero">
           <h1 class="hero-title">
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button type="button" class="hero-button">Заказать услугу</button>
+          <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="modal-close-btn" data-modal-close >
+                <svg class="close-icon" >
+                  <use href="./images/icon/symbol-defs.svg#icon-close-black" ></use></svg></button>
+            </div>
+          </div>
+          
         </section>
       </div>
+
       <!-- Особенности -->
 
       <section class="section feature">
@@ -119,12 +130,15 @@
           <ul class="work-list">
             <li class="item">
               <img src="./images/box1.jpg" alt="Компьютер" width="370" />
+              <p>Десктопные Приложения</p>
             </li>
             <li class="item">
               <img src="./images/box2.jpg" alt="Ноутбук" width="370" />
+              <p>Мобильные Приложения</p>
             </li>
             <li class="item">
               <img src="./images/box3.jpg" alt="Планшет" width="370" />
+              <p>Дизайнерские Решения</p>
             </li>
           </ul>
         </div>
@@ -224,7 +238,7 @@
           <ul class="company-logo">
             <li class="item">
               <a href="" class="clients-logo">
-                <svg  >
+                <svg class="logo-item">
                   <use
                     href="./images/icon/symbol-defs.svg#icon-Logo1"
                   ></use></svg
@@ -342,5 +356,6 @@
           
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
