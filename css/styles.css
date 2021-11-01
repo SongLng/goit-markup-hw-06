@@ -599,29 +599,6 @@ ul {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .overlay {
-  width: 370px;
-  height: 404px;
-  position: relative;
-} */
-
-/* .portfolio-thumb {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 400;
-  color: var(--primary-background-color);
-  content: "";
-  position: absolute;
-  top: 0%;
-  background-color: rgba(33, 150, 243, 0.9);
-  padding-left: 24px;
-  padding-right: 24px;
-  width: 370px;
-  height: 294px;
-  opacity: 1;
-} */
-
 .portfolio-list .item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
