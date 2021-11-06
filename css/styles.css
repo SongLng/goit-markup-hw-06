@@ -437,12 +437,12 @@ textarea {
   height: 18px;
   background-repeat: no-repeat;
   cursor: pointer;
-  background-image: url(/images/icon/Vector.svg);
+  background-image: url(../images/icon/Vector.svg);
   margin-right: 8px;
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
-  background-image: url(/images/icon/icon\ check.svg);
+  background-image: url(../images/icon/icon\ check.svg);
 }
 
 .license {
@@ -1010,7 +1010,7 @@ textarea {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/images/icon/icon\ send.svg);
+  background-image: url(../images/icon/icon\ send.svg);
   content: "";
   width: 24px;
   height: 24px;
